@@ -1,0 +1,207 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Camera.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Mesh.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Model3D.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Shader.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="stb_image.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="tiny_obj_loader.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="objects\cube\cube.mtl" />
+    <None Include="objects\ground\ground.mtl" />
+    <None Include="shaders\lightCube.frag" />
+    <None Include="shaders\lightCube.vert" />
+    <None Include="shaders\screenQuad.frag" />
+    <None Include="shaders\screenQuad.vert" />
+    <None Include="shaders\shaderStart.frag" />
+    <None Include="shaders\shaderStart.vert" />
+    <None Include="objects\nanosuit\nanosuit.blend" />
+    <None Include="objects\nanosuit\nanosuit.mtl" />
+    <None Include="shaders\depth.frag" />
+    <None Include="shaders\depth.vert" />
+    <None Include="objects\scenamea\backleft.mtl" />
+    <None Include="objects\scenamea\backright.mtl" />
+    <None Include="objects\scenamea\bl.mtl" />
+    <None Include="objects\scenamea\br.mtl" />
+    <None Include="objects\scenamea\cartrial.mtl" />
+    <None Include="objects\scenamea\cartrial2.mtl" />
+    <None Include="objects\scenamea\fl.mtl" />
+    <None Include="objects\scenamea\fr.mtl" />
+    <None Include="objects\scenamea\frontleft.mtl" />
+    <None Include="objects\scenamea\frontright.mtl" />
+    <None Include="objects\scenamea\scene2.mtl" />
+    <None Include="objects\scenamea\t1.mtl" />
+    <None Include="objects\scenamea\lamp.mtl" />
+    <None Include="objects\scenamea\cartrial3.mtl" />
+    <None Include="shaders\spotLight.frag" />
+    <None Include="shaders\spotLight.vert" />
+    <None Include="objects\scenamea\drop.mtl" />
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="objects\ground\2.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="objects\nanosuit\arm_dif.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="objects\nanosuit\arm_showroom_ddn.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="objects\nanosuit\arm_showroom_refl.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="objects\nanosuit\arm_showroom_spec.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="objects\nanosuit\body_dif.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="objects\nanosuit\body_showroom_ddn.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="objects\nanosuit\body_showroom_refl.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="objects\nanosuit\body_showroom_spec.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="objects\nanosuit\glass_ddn.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="objects\nanosuit\glass_dif.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="objects\nanosuit\glass_refl.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="objects\nanosuit\hand_dif.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="objects\nanosuit\hand_showroom_ddn.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="objects\nanosuit\hand_showroom_refl.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="objects\nanosuit\hand_showroom_spec.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="objects\nanosuit\helmet_diff.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="objects\nanosuit\helmet_showroom_ddn.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="objects\nanosuit\helmet_showroom_refl.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="objects\nanosuit\helmet_showroom_spec.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="objects\nanosuit\leg_dif.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="objects\nanosuit\leg_showroom_ddn.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="objects\nanosuit\leg_showroom_refl.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="objects\nanosuit\leg_showroom_spec.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="objects\nanosuit\white.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="objects\scenamea\2_BaseColor.jpg">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="objects\scenamea\cartexture.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="objects\scenamea\g2.jpg">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="objects\scenamea\house_diffuse.tga" />
+    <Image Include="objects\scenamea\house_normal.tga" />
+    <Image Include="objects\scenamea\house_specular.tga" />
+    <Image Include="objects\scenamea\lac3.jpeg">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="objects\scenamea\m3.jpg">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="objects\scenamea\road1.jpg">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="objects\scenamea\sky2.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="objects\scenamea\tree1.jpg">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="objects\scenamea\wildtextures-leather-Campo-brown.jpg">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="objects\scenamea\lamp.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="objects\scenamea\waterdroptext.jpg">
+      <Filter>Resource Files</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Camera.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Mesh.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Model3D.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Shader.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="stb_image.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="tiny_obj_loader.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="objects\nanosuit\LICENSE.txt" />
+  </ItemGroup>
+</Project>

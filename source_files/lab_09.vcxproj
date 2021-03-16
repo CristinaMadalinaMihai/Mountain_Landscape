@@ -1,0 +1,241 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <VCProjectVersion>16.0</VCProjectVersion>
+    <ProjectGuid>{637becea-d872-4062-94cf-2ce891144f56}</ProjectGuid>
+    <RootNamespace>lab_09</RootNamespace>
+    <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="Shared">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <AdditionalIncludeDirectories>C:\Users\criss\Desktop\utcn\3rd year 1st semester\GP\lab\Lab02\OpenGL dev libs\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalLibraryDirectories>C:\Users\criss\Desktop\utcn\3rd year 1st semester\GP\lab\Lab02\OpenGL dev libs\lib\Debug;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalDependencies>opengl32.lib;glfw3.lib;libglew32d.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <AdditionalIncludeDirectories>C:\Users\criss\Desktop\utcn\3rd year 1st semester\GP\lab\Lab02\OpenGL dev libs\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalLibraryDirectories>C:\Users\criss\Desktop\utcn\3rd year 1st semester\GP\lab\Lab02\OpenGL dev libs\lib\Release;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalDependencies>opengl32.lib;glfw3.lib;libglew32.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="Camera.cpp" />
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="Mesh.cpp" />
+    <ClCompile Include="Model3D.cpp" />
+    <ClCompile Include="Shader.cpp" />
+    <ClCompile Include="stb_image.cpp" />
+    <ClCompile Include="tiny_obj_loader.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="objects\cube\cube.mtl" />
+    <None Include="objects\ground\ground.mtl" />
+    <None Include="objects\nanosuit\nanosuit.blend" />
+    <None Include="objects\nanosuit\nanosuit.mtl" />
+    <None Include="objects\scenamea\backleft.mtl" />
+    <None Include="objects\scenamea\backright.mtl" />
+    <None Include="objects\scenamea\bl.mtl" />
+    <None Include="objects\scenamea\br.mtl" />
+    <None Include="objects\scenamea\cartrial.mtl" />
+    <None Include="objects\scenamea\cartrial2.mtl" />
+    <None Include="objects\scenamea\cartrial3.mtl" />
+    <None Include="objects\scenamea\drop.mtl" />
+    <None Include="objects\scenamea\fl.mtl" />
+    <None Include="objects\scenamea\fr.mtl" />
+    <None Include="objects\scenamea\frontleft.mtl" />
+    <None Include="objects\scenamea\frontright.mtl" />
+    <None Include="objects\scenamea\lamp.mtl" />
+    <None Include="objects\scenamea\scene2.mtl" />
+    <None Include="objects\scenamea\t1.mtl" />
+    <None Include="shaders\depth.frag" />
+    <None Include="shaders\depth.vert" />
+    <None Include="shaders\lightCube.frag" />
+    <None Include="shaders\lightCube.vert" />
+    <None Include="shaders\screenQuad.frag" />
+    <None Include="shaders\screenQuad.vert" />
+    <None Include="shaders\shaderStart.frag" />
+    <None Include="shaders\shaderStart.vert" />
+    <None Include="shaders\spotLight.frag" />
+    <None Include="shaders\spotLight.vert" />
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="objects\ground\2.png" />
+    <Image Include="objects\nanosuit\arm_dif.png" />
+    <Image Include="objects\nanosuit\arm_showroom_ddn.png" />
+    <Image Include="objects\nanosuit\arm_showroom_refl.png" />
+    <Image Include="objects\nanosuit\arm_showroom_spec.png" />
+    <Image Include="objects\nanosuit\body_dif.png" />
+    <Image Include="objects\nanosuit\body_showroom_ddn.png" />
+    <Image Include="objects\nanosuit\body_showroom_refl.png" />
+    <Image Include="objects\nanosuit\body_showroom_spec.png" />
+    <Image Include="objects\nanosuit\glass_ddn.png" />
+    <Image Include="objects\nanosuit\glass_dif.png" />
+    <Image Include="objects\nanosuit\glass_refl.png" />
+    <Image Include="objects\nanosuit\hand_dif.png" />
+    <Image Include="objects\nanosuit\hand_showroom_ddn.png" />
+    <Image Include="objects\nanosuit\hand_showroom_refl.png" />
+    <Image Include="objects\nanosuit\hand_showroom_spec.png" />
+    <Image Include="objects\nanosuit\helmet_diff.png" />
+    <Image Include="objects\nanosuit\helmet_showroom_ddn.png" />
+    <Image Include="objects\nanosuit\helmet_showroom_refl.png" />
+    <Image Include="objects\nanosuit\helmet_showroom_spec.png" />
+    <Image Include="objects\nanosuit\leg_dif.png" />
+    <Image Include="objects\nanosuit\leg_showroom_ddn.png" />
+    <Image Include="objects\nanosuit\leg_showroom_refl.png" />
+    <Image Include="objects\nanosuit\leg_showroom_spec.png" />
+    <Image Include="objects\nanosuit\white.png" />
+    <Image Include="objects\scenamea\2_BaseColor.jpg" />
+    <Image Include="objects\scenamea\cartexture.png" />
+    <Image Include="objects\scenamea\g2.jpg" />
+    <Image Include="objects\scenamea\house_diffuse.tga" />
+    <Image Include="objects\scenamea\house_normal.tga" />
+    <Image Include="objects\scenamea\house_specular.tga" />
+    <Image Include="objects\scenamea\lac3.jpeg" />
+    <Image Include="objects\scenamea\lamp.png" />
+    <Image Include="objects\scenamea\m3.jpg" />
+    <Image Include="objects\scenamea\road1.jpg" />
+    <Image Include="objects\scenamea\sky2.png" />
+    <Image Include="objects\scenamea\tree1.jpg" />
+    <Image Include="objects\scenamea\waterdroptext.jpg" />
+    <Image Include="objects\scenamea\wildtextures-leather-Campo-brown.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Camera.hpp" />
+    <ClInclude Include="Mesh.hpp" />
+    <ClInclude Include="Model3D.hpp" />
+    <ClInclude Include="Shader.hpp" />
+    <ClInclude Include="stb_image.h" />
+    <ClInclude Include="tiny_obj_loader.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="objects\nanosuit\LICENSE.txt" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

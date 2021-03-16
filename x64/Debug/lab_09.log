@@ -1,0 +1,27 @@
+﻿  main.cpp
+C:\Users\criss\Desktop\utcn\3rd year 1st semester\GP\lab\lab_09 - Copy\lab_09\lab_09\main.cpp(121,13): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+C:\Users\criss\Desktop\utcn\3rd year 1st semester\GP\lab\lab_09 - Copy\lab_09\lab_09\main.cpp(122,13): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+C:\Users\criss\Desktop\utcn\3rd year 1st semester\GP\lab\lab_09 - Copy\lab_09\lab_09\main.cpp(181,11): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+C:\Users\criss\Desktop\utcn\3rd year 1st semester\GP\lab\lab_09 - Copy\lab_09\lab_09\main.cpp(182,11): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+C:\Users\criss\Desktop\utcn\3rd year 1st semester\GP\lab\lab_09 - Copy\lab_09\lab_09\main.cpp(186,16): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+C:\Users\criss\Desktop\utcn\3rd year 1st semester\GP\lab\lab_09 - Copy\lab_09\lab_09\main.cpp(187,16): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+C:\Users\criss\Desktop\utcn\3rd year 1st semester\GP\lab\lab_09 - Copy\lab_09\lab_09\main.cpp(188,10): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+C:\Users\criss\Desktop\utcn\3rd year 1st semester\GP\lab\lab_09 - Copy\lab_09\lab_09\main.cpp(189,10): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+C:\Users\criss\Desktop\utcn\3rd year 1st semester\GP\lab\lab_09 - Copy\lab_09\lab_09\main.cpp(411,33): warning C4305: 'argument': truncation from 'double' to 'GLclampf'
+C:\Users\criss\Desktop\utcn\3rd year 1st semester\GP\lab\lab_09 - Copy\lab_09\lab_09\main.cpp(561,19): warning C4305: '-=': truncation from 'double' to 'float'
+C:\Users\criss\Desktop\utcn\3rd year 1st semester\GP\lab\lab_09 - Copy\lab_09\lab_09\main.cpp(562,21): warning C4305: '-=': truncation from 'double' to 'float'
+C:\Users\criss\Desktop\utcn\3rd year 1st semester\GP\lab\lab_09 - Copy\lab_09\lab_09\main.cpp(576,14): warning C4305: '-=': truncation from 'double' to 'float'
+C:\Users\criss\Desktop\utcn\3rd year 1st semester\GP\lab\lab_09 - Copy\lab_09\lab_09\main.cpp(577,16): warning C4305: '-=': truncation from 'double' to 'float'
+C:\Users\criss\Desktop\utcn\3rd year 1st semester\GP\lab\lab_09 - Copy\lab_09\lab_09\main.cpp(591,14): warning C4305: '-=': truncation from 'double' to 'float'
+C:\Users\criss\Desktop\utcn\3rd year 1st semester\GP\lab\lab_09 - Copy\lab_09\lab_09\main.cpp(592,16): warning C4305: '-=': truncation from 'double' to 'float'
+C:\Users\criss\Desktop\utcn\3rd year 1st semester\GP\lab\lab_09 - Copy\lab_09\lab_09\main.cpp(606,14): warning C4305: '-=': truncation from 'double' to 'float'
+C:\Users\criss\Desktop\utcn\3rd year 1st semester\GP\lab\lab_09 - Copy\lab_09\lab_09\main.cpp(607,16): warning C4305: '-=': truncation from 'double' to 'float'
+C:\Users\criss\Desktop\utcn\3rd year 1st semester\GP\lab\lab_09 - Copy\lab_09\lab_09\main.cpp(621,14): warning C4305: '-=': truncation from 'double' to 'float'
+C:\Users\criss\Desktop\utcn\3rd year 1st semester\GP\lab\lab_09 - Copy\lab_09\lab_09\main.cpp(622,16): warning C4305: '-=': truncation from 'double' to 'float'
+C:\Users\criss\Desktop\utcn\3rd year 1st semester\GP\lab\lab_09 - Copy\lab_09\lab_09\main.cpp(920,41): warning C4305: 'argument': truncation from 'double' to 'float'
+C:\Users\criss\Desktop\utcn\3rd year 1st semester\GP\lab\lab_09 - Copy\lab_09\lab_09\main.cpp(930,41): warning C4305: 'argument': truncation from 'double' to 'float'
+C:\Users\criss\Desktop\utcn\3rd year 1st semester\GP\lab\lab_09 - Copy\lab_09\lab_09\main.cpp(940,41): warning C4305: 'argument': truncation from 'double' to 'float'
+C:\Users\criss\Desktop\utcn\3rd year 1st semester\GP\lab\lab_09 - Copy\lab_09\lab_09\main.cpp(987,11): warning C4244: 'initializing': conversion from 'int' to 'float', possible loss of data
+C:\Users\criss\Desktop\utcn\3rd year 1st semester\GP\lab\lab_09 - Copy\lab_09\lab_09\main.cpp(988,11): warning C4244: 'initializing': conversion from 'int' to 'float', possible loss of data
+C:\Users\criss\Desktop\utcn\3rd year 1st semester\GP\lab\lab_09 - Copy\lab_09\lab_09\main.cpp(998,11): warning C4244: 'initializing': conversion from 'int' to 'float', possible loss of data
+  lab_09.vcxproj -> C:\Users\criss\Desktop\utcn\3rd year 1st semester\GP\lab\lab_09 - Copy\lab_09\x64\Debug\lab_09.exe
